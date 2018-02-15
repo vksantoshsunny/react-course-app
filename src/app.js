@@ -1,1 +1,3 @@
-console.log('basic set up');
+import validator from 'validator';
+
+console.log(validator.isEmail('touch'));
